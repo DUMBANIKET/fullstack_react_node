@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/form.css'
+import '../styles/utils.css'
+
 export default function Login() {
   return (
     <>
@@ -7,8 +9,8 @@ export default function Login() {
     <div className='circle rounded-full flex justify-center'></div>
     <form className='pb-3'>
         
-        <div className='form-material bg-white/40 '>
-            <h1 className='text-center py-6 text-3xl'>Welcome Back</h1>
+        <div className='form-material bg-white/5 '>
+            <h1 className='text-center py-6 text-4xl'>Welcome Back</h1>
         <input type='text' placeholder='username' name='username'></input>
         <br></br>  <br></br>  
         <input type='password' placeholder='password' name='password'></input>
@@ -21,6 +23,7 @@ export default function Login() {
         </div>
         
     </form>
+    <div className='form-banner'></div>
     </div>
     </>
   )
