@@ -14,10 +14,12 @@ body{
 .form-box{
     margin: 50px;
     padding-top: 80px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row
+    flex-direction: row;
+    
     
 }
 .form-material{
@@ -102,10 +104,15 @@ background-color: black;
         }  
 
         .form-material input{
-            width: 70%; 
+            width: 80%; 
+            
         }
-        .form-material input{
-            width: 70%; 
+        .form-material button{
+            margin-left: 30px;
+            width: 80%; 
+        }
+        .form-material{ padding-right: 40px;
+            margin-right: 20px;
         }
 
       }
